@@ -19,3 +19,14 @@
     width: 100%;
 }
 
+.textArea{
+    height: 150px;
+    /* border: 2px solid green; */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.titleheading{
+    height: 50px;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}

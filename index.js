@@ -14,9 +14,9 @@ const uiCreation = (data) => {
         
         const singleData = `<div class="contentMain col-6"><img id="image" src="${item.image}" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">${item.title}</h5>
-            <p class="card-text">${item.description}</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title titleheading">${item.title}</h5>
+            <p class="card-text textArea">${item.description}</p>
+            <a href="#" class="btn btn-primary">${item.price}$</a>
         </div>
         </div>`
 
@@ -58,12 +58,12 @@ const getCountryData = () => {
 getCountryData()
 
 
-const getAllProducts = () => {
-    fetch(`https://catfact.ninja/fact/`)
-        .then(resp => resp.json())
-        .then(data => console.log(data, "==>>allProducts"))
-}
+// const getAllProducts = () => {
+//     fetch(`https://catfact.ninja/fact/`)
+//         .then(resp => resp.json())
+//         .then(data => console.log(data, "==>>allProducts"))
+// }
 
-getAllProducts()
+// getAllProducts()
 
 
