@@ -1,0 +1,21 @@
+.mainDiv{
+    /* border: 2px solid green; */
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap   ;
+}
+.contentMain{
+    /* border: 2px solid green; */
+    width: 200px;
+    height: fit-content;
+    margin: 20px;
+    font-size: 10px;
+    
+
+}
+.contentMain img{
+    height: 200px;
+    width: 100%;
+}
+
